@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Flex Container를 위한 속성 -->
+    <h1>display 속성</h1>
+    <h3>display : flex</h3>
+    <div class="flex-container">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="flex-container">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>display : inline-flex</h3>
+    <div class="inline-flex-container">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="inline-flex-container">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <h1>flex-flow 속성: flex-direction, flex-wrap</h1>
+    <h3>flex-direction : row</h3>
+    <div class="flex-container" style="flex-direction: row;">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+    <h3>flex-direction : row-reverse</h3>
+    <div class="flex-container" style="flex-direction: row-reverse;">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+    <h3>flex-direction : column</h3>
+    <div class="flex-container" style="flex-direction: column;">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+    <h3>flex-direction : column-reverse</h3>
+    <div class="flex-container" style="flex-direction: column-reverse;">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+    <h3>flex-wrap : wrap</h3>
+    <div class="flex-container" style="flex-wrap: wrap;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>flex-wrap : nowrap</h3>
+    <div class="flex-container" style="flex-wrap: nowrap;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <h1>justify-content 속성</h1>
+    <h3>justify-content : flex-start</h3>
+    <div class="flex-container" style="justify-content: flex-start;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>justify-content : center</h3>
+    <div class="flex-container" style="justify-content: center;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>justify-content : space-around</h3>
+    <div class="flex-container" style="justify-content: space-around;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <h1>align-content 속성</h1>
+    <h3>align-content : flex-start</h3>
+    <div class="flex-container" style="flex-wrap: wrap; align-content: flex-start; height: 300px; border: 1px solid red;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>align-content : space-around</h3>
+    <div class="flex-container" style="flex-wrap: wrap; align-content: space-around; height: 300px; border: 1px solid red;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>align-content : center</h3>
+    <div class="flex-container" style="flex-wrap: wrap; align-content: center; height: 300px; border: 1px solid red;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <h1>align-items 속성</h1>
+    <h3>align-items : flex-start</h3>
+    <div class="flex-container" style="flex-wrap: wrap; align-content: stretch; align-items: flex-start; height: 300px; border: 1px solid red;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h3>align-items : flex-end</h3>
+    <div class="flex-container" style="flex-wrap: wrap; align-content: stretch; align-items: flex-end; height: 300px; border: 1px solid red;">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <!-- Flex items를 위한 속성 -->
+    <h1>order 속성</h1>
+    <h3>order 순서</h3>
+    <div class="flex-container" >
+        <div class="box" style="order: 10;">10</div>
+        <div class="box" style="order: 6;">6</div>
+        <div class="box" style="order: 3;">3</div>
+        <div class="box" style="order: -2;">-2</div>
+        <div class="box" style="order: 6;">0</div>
+    </div>
+
+    <h1>flex 속성</h1>
+    <h3>flex</h3>
+    <div class="flex-container" >
+        <div class="box" style="flex: 1;">1</div>
+        <div class="box" style="flex: 10;">10</div>
+    </div>
+
+    <h1>align-self 속성</h1>
+    <h3>align-items : flex-end, align-self : flex-start</h3>
+    <div class="flex-container" style="flex-wrap: wrap; align-content: stretch; align-items: flex-end; height: 300px; border: 1px solid red;">
+        <div class="box"></div>
+        <div class="box" style="align-self: flex-start;"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box" style="align-self: flex-start;"></div>
+        <div class="box" ></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>

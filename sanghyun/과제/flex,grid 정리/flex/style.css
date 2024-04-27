@@ -1,0 +1,77 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+/* Block 특성, 수직 쌓임 */
+.flex-container{
+    display: flex;
+}
+
+/* Inline 특성, 수평 쌓임 */
+.inline-flex-container{
+    display: inline-flex;
+}
+
+/* flex-direction */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* flex-wrap */
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* justify-content */
+.justify-flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.justify-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* align-content */
+.align-space-around{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.align-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}

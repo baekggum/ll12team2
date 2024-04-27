@@ -4,10 +4,10 @@
 왜냐하면 데이터를 다루기 위한 논리적인 로직을 짤 수 없기 때문이다.
 
 2. 
-HTML Tags :
+- HTML Tags :
 `<div></div> `
 
-HTML Elements :
+- HTML Elements :
 `<div>hello</div>`
 
 3. CSS를 적용시키는 방법
@@ -17,7 +17,7 @@ HTML Elements :
 
 4. CSS의 id, class 선택자는 숫자로 시작하면 적용을 할 수 없다.
 예)
-html : <p class=3rd>hello</p>
+html : `<p class=3rd>hello</p>`
 css : .3rd{border : 1px solid pink;} => css 적용이 안된다.
 
 5. box-sizing: border-box;
