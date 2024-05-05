@@ -1,0 +1,22 @@
+p {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+    text-decoration: wavy underline red;
+}
+
+input[placeholder="hello"]{
+    border: 1px solid orange;
+}
+
+.abc {
+    height: 300px;
+    width: 300px;
+    border: 20px solid pink;
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+}
+
+p{
+    font-family: "Bebas Neue";
+}
