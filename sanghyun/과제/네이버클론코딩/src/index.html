@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naver Clone Coding</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4618b88a4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="flex flex-col items-center pt-4">
+    <header class="w-1200 ">
+        <div id="top_icon_bar" class="flex justify-between">
+            <div id="top_left_icon_bar">
+                <i class="fa-solid fa-bars fa-2xl pr-3"></i>
+                <i class="fa-regular fa-credit-card fa-2xl"></i>
+            </div>
+            <div id="top_right_icon_bar">
+                <i class="fa-regular fa-comment-dots fa-2xl pr-3"></i>
+                <i class="fa-regular fa-bell fa-2xl"></i>
+            </div>
+        </div>
+
+        <div id="search_area" class="flex justify-center pb-4">
+            <div class="flex justify-between items-center border border-green-400 rounded-full w-600 p-2">
+                <button class="text-4xl text-green-400  font-black pl-4">N</button>
+                <input type="text" />
+                <div>
+                    <i class="fa-regular fa-keyboard fa-xl pr-2" style="color: #b1b5b9;"></i>
+                    <i class="fa-solid fa-magnifying-glass fa-xl pr-2" style="color: #05ce5f;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="icon_function_bar" class="pb-6">
+            <ul class="flex justify-center gap-4">
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+                <li class="flex flex-col items-center">
+                    <img class="w-12 h-12 border rounded-lg border-gray-400 cursor-pointer shadow"
+                        src="https://src.wizad.co.kr/wizbbs/data/shopimg/A1670303927277_20221206_141822.jpg"
+                        alt="네이버 메일">메일
+                </li>
+
+            </ul>
+        </div>
+    </header>
+
+    <section id="section" class="flex gap-4 pb-4">
+        <div id="left_section" class="flex flex-col pr-1 gap-3 w-800">
+            <div id="left_ad_banner" class="banner overflow-hidden">
+                <img src="https://ssl.pstatic.net/melona/libs/1494/1494170/fe08b13e2c7e7dc04169_20240507170314609.jpg"
+                    alt="광고">
+            </div>
+            <div id="news_banner" class="banner mb-2">
+                <div class="p-4">
+                    <ul class="flex gap-2 pb-2">
+                        <li>뉴스스탠드 /</li>
+                        <li>엔터 /</li>
+                        <li>스포츠 /</li>
+                        <li>경제 /</li>
+                        <li>쇼핑투데이</li>
+                    </ul>
+                    <div class="bg-gray-100 p-2 mb-4">브랜드DAY |
+                        지오지아 여름 셋업 8만 원대 초특가 외 장바구니 쿠폰+추가 5% 적립</div>
+                    <div class="grid grid-cols-2 grid-rows-2 gap-2">
+                        <div id="shopping_item" class="flex h-100">
+                            <img src="https://cdn.pixabay.com/photo/2020/12/18/03/27/clothing-5841103_1280.png"
+                                class="p-2 banner mr-2">
+                            <div id="shopping_description" class="flex flex-col flex-grow ">
+                                <p>Lorem ipsum dolor sit,adipisicing elit.</p>
+                                <div class="flex">
+                                    <span class="text-red-600">70%</span>
+                                    <span>21,800원</span>
+                                    <span class="line-through text-gray-300">72,600원</span>
+                                </div>
+                                <span>옥션</span>
+                            </div>
+                        </div>
+                        <div id="shopping_item" class="flex h-100">
+                            <img src="https://cdn.pixabay.com/photo/2020/12/18/03/27/clothing-5841103_1280.png"
+                                class="p-2 banner mr-2">
+                            <div id="shopping_description" class="flex flex-col flex-grow ">
+                                <p>Lorem ipsum dolor sit,adipisicing elit.</p>
+                                <div class="flex">
+                                    <span class="text-red-600">70%</span>
+                                    <span>21,800원</span>
+                                    <span class="line-through text-gray-300">72,600원</span>
+                                </div>
+                                <span>옥션</span>
+                            </div>
+                        </div>
+                        <div id="shopping_item" class="flex h-100">
+                            <img src="https://cdn.pixabay.com/photo/2020/12/18/03/27/clothing-5841103_1280.png"
+                                class="p-2 banner mr-2">
+                            <div id="shopping_description" class="flex flex-col flex-grow ">
+                                <p>Lorem ipsum dolor sit,adipisicing elit.</p>
+                                <div class="flex">
+                                    <span class="text-red-600">70%</span>
+                                    <span>21,800원</span>
+                                    <span class="line-through text-gray-300">72,600원</span>
+                                </div>
+                                <span>옥션</span>
+                            </div>
+                        </div>
+                        <div id="shopping_item" class="flex h-100">
+                            <img src="https://cdn.pixabay.com/photo/2020/12/18/03/27/clothing-5841103_1280.png"
+                                class="p-2 banner mr-2">
+                            <div id="shopping_description" class="flex flex-col flex-grow ">
+                                <p>Lorem ipsum dolor sit,adipisicing elit.</p>
+                                <div class="flex">
+                                    <span class="text-red-600">70%</span>
+                                    <span>21,800원</span>
+                                    <span class="line-through text-gray-300">72,600원</span>
+                                </div>
+                                <span>옥션</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="border-b my-2"></div>
+                <div class="flex justify-center pb-2">쇼핑투데이 더보기</div>
+            </div>
+            <div id="shopping_banner" class="banner">
+                <div class="p-4">
+                    <ul class="flex gap-2 pb-2">
+                        <li>쇼핑 /</li>
+                        <li>맨즈 /</li>
+                        <li>원쁠딜 /</li>
+                        <li>쇼핑라이브</li>
+                    </ul>
+                    <div class="bg-gray-100 p-2 mb-4">브랜드DAY |
+                        지오지아 여름 셋업 8만 원대 초특가 외 장바구니 쿠폰+추가 5% 적립</div>
+                    <div class="flex gap-3">
+                        <div class="flex flex-col gap-1 h-full">
+                            <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                alt="" class="banner overflow-hidden w-80">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="grid grid-cols-3 grid-rows-2 gap-2 h-full">
+                            <div class="flex flex-col">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden w-40">
+                                <p>Lorem, ipsum 1ssdf</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden w-40">
+                                <p>Lorem, ipsum sdfsdf</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden w-40">
+                                <p>Lorem, ipsum sdfsd</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden w-40">
+                                <p>Lorem, ipsum sdfssdf </p>
+                            </div>
+                            <div class="flex flex-col">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden w-40">
+                                <p>Lorem, ipsum sdff</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden w-40">
+                                <p>Lorem, ipsum fsdf</p>
+                            </div>
+
+
+                        </div>
+                        <div class="border-l"></div>
+                        <div class="flex flex-col justify-between gap-2">
+                            <div class="flex justify-center items-center gap-1 banner">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden h-24">
+                                <div class="flex flex-col">
+                                    <p>바이유어 데이 보장 LIVE </p>
+                                    <p>바이유어</p>
+                                    <p>5월 19일 18:00</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center gap-1 banner">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden h-24">
+                                <div class="flex flex-col">
+                                    <p>바이유어 데이 보장 LIVE </p>
+                                    <p>바이유어</p>
+                                    <p>5월 19일 18:00</p>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center gap-1 banner">
+                                <img src="https://www.womansense.co.kr/upload/woman/article/202003/thumb/44510-407857-sampleM.jpg"
+                                    alt="" class="overflow-hidden h-24">
+                                <div class="flex flex-col">
+                                    <p>바이유어 데이 보장 LIVE </p>
+                                    <p>바이유어</p>
+                                    <p>5월 19일 18:00</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="border-b my-2"></div>
+                <div class="flex justify-center pb-2">쇼핑라이브 더보기</div>
+            </div>
+        </div>
+
+        <div id="right_section" class="flex flex-col pl-1 gap-3 w-400">
+            <div id="user_banner" class="banner p-2">
+                <div id="user_data" class="flex justify-center items-center">
+                    <div class="w-20 h-16 rounded-full border border-gray-200 overflow-hidden">
+                        <img src="https://uxwing.com/wp-content/themes/uxwing/download/business-professional-services/computer-user-icon.png"
+                            alt="">
+                    </div>
+                    <div
+                        class="w-6 h-6 rounded-full border border-gray-200 flex justify-center items-center relative right-4 top-6 bg-white">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="flex flex-col w-full">
+                        <div class="flex justify-between">
+                            <p>이상현님</p>
+                            <div class="rounded-full border border-gray-200 text-gray-400 p-1">로그아웃 <i class="fa-solid fa-arrow-right-from-bracket" style="color: #c3c6d1;"></i></div>
+                        </div>
+                        <p>aaa@naver.com</p>
+                        <p>시작하기 | 쪽지<span class="text-green-400">13</span> | 해피빈</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="right_ad_banner" class="banner">
+                <div class="flex flex-col">
+                    <div class="flex overflow-hidden">
+                        <img src="https://naverpa-phinf.pstatic.net/MjAyNDA1MDdfMTE4/MDAxNzE1MDU2NjExOTUz.8HJT5GMIcNGr6s5XBlTYLUIRuteTnZ5wj065PCe7inYg.op1jH45iebfrnmX9lTMUVflLYb3PibwEl5Dkf8UyGFEg.JPEG/GFA_342x228_171505661194211235435039284602822.jpg"
+                            alt="" class="w-full">
+                    </div>
+                </div>
+            </div>
+            <div id="weather_banner" class="banner flex flex-col p-4">
+                <div class="flex justify-between pb-4">
+                    <p>날씨</p>
+                    <p>대구시 신당동</p>
+                </div>
+                <span class="border-b"></span>
+                <div class="flex pt-4">
+                    <img
+                        src="https://image.fmkorea.com/files/attach/new3/20240219/494354581/5699332734/6737596609/8802577d0c6a820a31c02965fa2989ce.png" />
+                </div>
+            </div>
+            <div id="economy_banner" class="banner flex flex-col p-4">
+                <div class="flex justify-between pb-4 ">
+                    <p>증시</p>
+                    <p>05.17. 10:44</p>
+
+                </div>
+                <span class="border-b"></span>
+                <div class="flex pt-4">
+                    <img src="https://www.foodneconomy.com/news/photo/202212/342659_86583_2642.jpg" alt="증시 이미지"
+                        class="flex pt-4" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="w-full bg-gray-100 pt-5 pb-10">
+
+        <div class="flex justify-center">
+            회사소개 | 인재채용 | 제휴제안 | 이용약관 | 개인정보처리방침 | 고객센터
+        </div>
+    </footer>
+</body>
+
+</html>
